@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container container--wide">
+    <p class="section__label">Work</p>
+    <h2 class="section__heading">Projects</h2>
+    <div class="project-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="p-card">
+        {{ with .Params.status }}<p class="p-card__status">{{ . }}</p>{{ end }}
+        <h3 class="p-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p class="p-card__desc">{{ .Params.description }}</p>
+        {{ with .Params.tags }}
+        <div class="p-card__tags">
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

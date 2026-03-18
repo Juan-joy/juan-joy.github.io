@@ -1,0 +1,148 @@
+{{ define "main" }}
+<!-- HERO -->
+<header class="hero">
+  <div class="hero__bg">
+    <div class="hero__grid"></div>
+    <div class="hero__stripe"></div>
+  </div>
+  <div class="container hero__content">
+    <p class="hero__tag">Chemical Engineer · Builder · Explorer</p>
+    <h1 class="hero__title">Building at the<br>intersection of <em>science</em><br>and <em>business.</em></h1>
+    <p class="hero__subtitle">
+      Chemical Engineering Honours graduate from NUS with hands-on experience across different markets. I build things, explore ideas, and write about what I learn along the way.
+    </p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">View Projects ↓</a>
+      <a href="/about/" class="btn btn--outline">About Me</a>
+    </div>
+  </div>
+</header>
+
+<!-- PROJECTS (Tabbed) -->
+<section class="section" id="projects">
+  <div class="container container--wide">
+    <p class="section__label">Selected Work</p>
+    <h2 class="section__heading">Projects</h2>
+
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab(event, 'tab-all')">All Projects</button>
+      <button class="tab" onclick="switchTab(event, 'tab-community')">Community Engagement</button>
+      <button class="tab" onclick="switchTab(event, 'tab-lp')">Light Patches</button>
+    </div>
+
+    <!-- TAB: All Projects -->
+    <div class="tab-panel active" id="tab-all">
+      <div class="project-grid">
+        {{ range where .Site.RegularPages "Section" "projects" }}
+        <article class="p-card">
+          {{ with .Params.status }}<p class="p-card__status">{{ . }}</p>{{ end }}
+          <h3 class="p-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="p-card__desc">{{ .Params.description }}</p>
+          {{ with .Params.tags }}
+          <div class="p-card__tags">
+            {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+          {{ end }}
+        </article>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- TAB: Community Engagement -->
+    <div class="tab-panel" id="tab-community">
+      {{ range .Site.Data.community }}
+      <div class="community-card">
+        <p class="community-card__role">{{ .role }}</p>
+        <h3 class="community-card__title">{{ .title }}</h3>
+        <p class="community-card__org">{{ .org }} · {{ .period }}</p>
+        <p class="community-card__body">{{ .description }}</p>
+        {{ with .bullets }}
+        <ul class="community-card__bullets">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- TAB: Light Patches -->
+    <div class="tab-panel" id="tab-lp">
+      <div class="lp-hero">
+        <p class="lp-hero__label">Deep Dive</p>
+        <h3 class="lp-hero__title">Light Patches</h3>
+        <p class="lp-hero__desc">
+          An overnight oral care product that delivers active ingredients through a bilayer bio-dissolvable HPMC film while you sleep. Rethinking oral care delivery from a 2-minute window to an 8-hour one.
+        </p>
+      </div>
+      <div class="lp-phases">
+        <div class="lp-phase">
+          <p class="lp-phase__num">01</p>
+          <p class="lp-phase__name">Concept & Research</p>
+          <p class="lp-phase__detail">Literature review, material selection, HPMC characterisation</p>
+        </div>
+        <div class="lp-phase">
+          <p class="lp-phase__num">02</p>
+          <p class="lp-phase__name">Prototype 1–2</p>
+          <p class="lp-phase__detail">Single-layer films, plasticizer ratios, adhesion studies</p>
+        </div>
+        <div class="lp-phase">
+          <p class="lp-phase__num">03</p>
+          <p class="lp-phase__name">Prototype 3</p>
+          <p class="lp-phase__detail">Bilayer design — mucoadhesive + controlled release</p>
+        </div>
+        <div class="lp-phase">
+          <p class="lp-phase__num">04</p>
+          <p class="lp-phase__name">Next: Pilot Batch</p>
+          <p class="lp-phase__detail">GMP sourcing, regulatory pathway (SG & ASEAN)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK EXPERIENCE TIMELINE -->
+<section class="section section--alt" id="work">
+  <div class="container">
+    <p class="section__label">Career</p>
+    <h2 class="section__heading">Work Experience</h2>
+
+    <div class="timeline">
+      {{ range .Site.Data.work }}
+      <div class="tl-item">
+        <div class="tl-item__dot"></div>
+        <p class="tl-item__date">{{ .period }}</p>
+        <h3 class="tl-item__title">{{ .title }}</h3>
+        <p class="tl-item__company">{{ .company }}</p>
+        <p class="tl-item__location">{{ .location }}</p>
+        {{ with .bullets }}
+        <ul class="tl-item__bullets">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+        {{ with .tags }}
+        <div class="tl-item__tags">
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section" id="blog">
+  <div class="container">
+    <p class="section__label">Writing</p>
+    <h2 class="section__heading">Blog</h2>
+    <div class="post-list">
+      {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+      <div class="post-item">
+        <h3 class="post-item__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <time class="post-item__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

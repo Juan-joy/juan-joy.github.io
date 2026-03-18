@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+  <a href="/projects/" class="back-link">All Projects</a>
+  <article class="content">
+    <header class="content__header">
+      {{ with .Params.status }}<p class="section__label">{{ . }}</p>{{ end }}
+      <h1 class="content__title">{{ .Title }}</h1>
+      <div class="content__meta">
+        {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.timeline }}<span>{{ . }}</span>{{ end }}
+      </div>
+      {{ with .Params.tags }}
+      <div class="p-card__tags" style="margin-top: 16px;">
+        {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+    </header>
+    <div class="content__body">{{ .Content }}</div>
+  </article>
+</div>
+{{ end }}

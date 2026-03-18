@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <p class="section__label">Writing</p>
+    <h2 class="section__heading">Blog</h2>
+    <div class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <div class="post-item">
+        <h3 class="post-item__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <time class="post-item__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,42 @@
+baseURL = "https://yourusername.github.io/"
+languageCode = "en-us"
+title = "Juan Joy Gopurathingal — Engineer, Builder, Explorer"
+
+[params]
+  description = "Chemical Engineering Honours graduate from NUS with hands-on experience across different markets."
+  author = "Juan Joy"
+  fullName = "Juan Joy Gopurathingal"
+  github = "https://github.com/yourusername"
+  linkedin = "https://www.linkedin.com/in/juan-joy"
+  email = "juanjoy2001@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    url = "/#projects"
+    weight = 1
+  [[menu.main]]
+    name = "Work"
+    url = "/#work"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[outputs]
+  home = ["HTML"]
+
+[pagination]
+  pagerSize = 10

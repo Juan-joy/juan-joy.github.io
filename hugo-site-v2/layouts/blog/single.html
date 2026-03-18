@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container">
+  <a href="/blog/" class="back-link">All Posts</a>
+  <article class="content">
+    <header class="content__header">
+      <h1 class="content__title">{{ .Title }}</h1>
+      <div class="content__meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <span>{{ .ReadingTime }} min read</span>
+      </div>
+    </header>
+    <div class="content__body">{{ .Content }}</div>
+  </article>
+</div>
+{{ end }}
