@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container">
-  <a href="/projects/" class="back-link">All Projects</a>
+  <a href="/#projects" class="back-link">Back to Projects</a>
   <article class="content">
     <header class="content__header">
       {{ with .Params.status }}<p class="section__label">{{ . }}</p>{{ end }}
@@ -8,6 +8,7 @@
       <div class="content__meta">
         {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
         {{ with .Params.timeline }}<span>{{ . }}</span>{{ end }}
+        <span>{{ .ReadingTime }} min read</span>
       </div>
       {{ with .Params.tags }}
       <div class="p-card__tags" style="margin-top: 16px;">
