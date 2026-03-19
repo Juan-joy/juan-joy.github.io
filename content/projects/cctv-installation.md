@@ -1,10 +1,10 @@
 ---
 title: "The Riddle Runner"
-date: 2024-06-01
-description: "A Mario-inspired 2D platformer built from scratch — custom game engine, hand-drawn aesthetic, physics, collision detection, and riddle-based progression."
+date: 2025-06-01
+description: "A Mario-inspired 2D platformer built from scratch, custom game engine, hand-drawn aesthetic, physics, collision detection, and riddle-based progression."
 status: "Completed"
 role: "Solo Developer & Designer"
-timeline: "2024"
+timeline: "2025"
 tags: ["game development", "javascript", "canvas API", "creative coding", "HTML/CSS"]
 ---
 
