@@ -1,4 +1,4 @@
-\---
+---
 
 title: "Stockholm, KTH, and Learning to Be Uncomfortable"
 date: 2025-05-20
