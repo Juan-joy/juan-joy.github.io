@@ -1,4 +1,4 @@
-\---
+---
 
 title: "Cars With Soul"
 date: 2025-03-10
