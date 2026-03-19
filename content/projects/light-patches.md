@@ -1,10 +1,10 @@
 ---
 title: "Light Patches"
-date: 2025-06-01
+date: 2025-01-01
 description: "An overnight oral care film that delivers active ingredients while you sleep. Co-founded and backed by the NUS VIP Grant."
 status: "In Progress"
 role: "Co-founder, Product & R&D"
-timeline: "2024 - Present"
+timeline: "2025 - Present"
 tags: ["biotech", "HPMC", "oral care", "NUS VIP Grant", "co-founder"]
 ---
 
