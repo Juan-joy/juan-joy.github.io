@@ -1,4 +1,4 @@
-\---
+---
 
 title: "Why I Think Every Engineer Should try a Product role"
 date: 2025-08-15
