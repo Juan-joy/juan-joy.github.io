@@ -1,23 +1,29 @@
 ---
-title: "Commercial CCTV Installation"
-date: 2025-09-01
-description: "Project managing a 40-camera IP CCTV system for a commercial client - from procurement to deployment."
-status: "In Progress"
-role: "Project Manager & Procurement Lead"
-timeline: "2025"
-tags: ["project management", "procurement", "security systems", "commercial"]
+title: "The Riddle Runner"
+date: 2024-06-01
+description: "A Mario-inspired 2D platformer built from scratch — custom game engine, hand-drawn aesthetic, physics, collision detection, and riddle-based progression."
+status: "Completed"
+role: "Solo Developer & Designer"
+timeline: "2024"
+tags: ["game development", "javascript", "canvas API", "creative coding", "HTML/CSS"]
 ---
 
-A freelance project managing the end-to-end deployment of a 40-camera IP CCTV system for a commercial installation. My role spans vendor sourcing, RFQ generation, procurement negotiation, and installation oversight.
+A passion project born out of curiosity and a love for classic platformers. I built a fully playable 2D side-scroller from the ground up — no game engine, no framework. Just HTML, CSS, JavaScript, and the Canvas API.
 
-## Scope
+**[Play the game →](#)**
 
-The project involves 40 IP cameras across a multi-floor commercial space, with requirements for remote monitoring, NVR storage, and integration with existing building management systems.
+## What I Built
 
-## My Role
+The game runs on a custom JavaScript engine I wrote myself, handling the full game loop, sprite rendering, physics simulation, and collision detection on an HTML5 Canvas. The UI screens — title, intro, riddles, game over, and victory — are built in HTML and CSS, with a deliberate hand-drawn sketch aesthetic that gives the whole thing a scrapbook-meets-arcade feel.
 
-I came on as the hired project manager and procurement lead. This meant translating the client's security requirements into technical specifications, generating RFQ documents for vendor outreach, evaluating bids, and coordinating the installation timeline.
+Progression is tied to riddles: you don't just run and jump your way through — you have to solve something to advance. It adds a small cognitive layer to what would otherwise be a pure reflex game.
 
-## Key Challenges
+## Technical Stack
 
-Balancing cost, image quality, and storage capacity across 40 camera feeds. Finding vendors in Singapore who could meet the spec without over-engineering (and over-charging) the solution.
+- **HTML** — UI screens and DOM structure (title, intro, riddle overlays, end states)
+- **CSS** — Hand-drawn sketch aesthetic, responsive layout, button styling, screen transitions
+- **JavaScript + Canvas API** — Game engine: rendering pipeline, physics, collision detection, animation system, game loop
+
+## What I Learned
+
+Building a game engine without a framework forces you to understand the fundamentals that libraries abstract away — frame timing, bounding box logic, state machines for character animation. It also taught me a lot about scope: the first version had far too many planned features. Shipping a tight, polished small game is harder than it sounds.
