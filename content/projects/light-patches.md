@@ -1,23 +1,33 @@
 ---
 title: "Light Patches"
 date: 2025-06-01
-description: "An overnight oral care product using bio-dissolvable HPMC films — from concept to prototype."
+description: "An overnight oral care film that delivers active ingredients while you sleep. Co-founded and backed by the NUS VIP Grant."
 status: "In Progress"
-role: "Founder & Developer"
-timeline: "2024 — Present"
-tags: ["biotech", "product development", "HPMC", "oral care"]
+role: "Co-founder, Product & R&D"
+timeline: "2024 - Present"
+tags: ["biotech", "HPMC", "oral care", "NUS VIP Grant", "co-founder"]
 ---
 
-Light Patches is an overnight oral care product that delivers active ingredients through a bilayer bio-dissolvable film system while you sleep. The idea came from a simple frustration: most oral care products are designed around a 2-minute brushing window. What if you could use the 8 hours you spend sleeping instead?
+What if you could take care of your oral health while you sleep?
+
+Light Patches is an overnight oral care product that sticks to your gum and delivers active ingredients over 8 hours through a bio-dissolvable bilayer film. You wake up without bad breath, with a cleaner, healthier mouth. No rinsing. No routine. Just peel, stick, and sleep.
 
 ## The Problem
 
-Existing oral care delivery is limited by short contact times and saliva wash-off. Mouthwash lasts seconds. Toothpaste is rinsed away. There's an opportunity to rethink the delivery mechanism entirely.
+Traditional oral care products are designed around a 2-minute window. Mouthwash lasts seconds. Toothpaste gets rinsed away. There is an enormous untapped window of opportunity in the 8 hours we spend sleeping every night. Existing products simply are not built to take advantage of it.
 
-## The Approach
+## How It Works
 
-I designed a bilayer HPMC (hydroxypropyl methylcellulose) film system — one layer for mucoadhesion (sticking to the gum or palate), and one for controlled release of the active ingredient over several hours. The current prototype (Prototype 3) is the result of iterating on film thickness, plasticizer ratios, and release kinetics.
+The core technology is a bilayer HPMC (hydroxypropyl methylcellulose) film system. One layer is mucoadhesive, meaning it sticks securely to the gum or palate. The other layer is designed for controlled, sustained release of the active ingredient over several hours. The result is continuous delivery while you sleep, so you wake up with noticeably fresher breath and a cleaner mouth.
 
-## Current Status
+## Where We Are
 
-Prototype 3 is in testing. Next steps include sourcing GMP-grade raw materials for a pilot batch and exploring regulatory pathways in Singapore and the broader ASEAN market.
+We are currently on Prototype 3, which introduced the bilayer design after two earlier iterations focused on single-layer films, plasticizer ratio testing, and adhesion studies. We were winners of the NUS Venture Initiation Programme (VIP) grant, which validated the commercial potential of the concept and funded our next phase of development.
+
+## What's Next
+
+The immediate roadmap includes sourcing GMP-grade raw materials for a pilot batch, running structured user testing, and exploring regulatory pathways in Singapore and the broader ASEAN market.
+
+## My Role
+
+I co-founded Light Patches to apply my chemical engineering background to a real consumer problem. My work spans formulation R&D (designing the bilayer film system, optimising plasticizer ratios and release kinetics), product strategy (positioning and go-to-market planning), and fundraising (NUS VIP Grant pitch and application).

@@ -1,10 +1,10 @@
 ---
 title: "Sustainable Packaging Brokerage"
 date: 2025-08-01
-description: "A B2B brokerage connecting FMCG and pharma companies in Singapore with sustainable packaging suppliers — leveraging ChemE domain knowledge for sourcing and spec matching."
+description: "A B2B brokerage connecting FMCG and pharma companies in Singapore with sustainable packaging suppliers - leveraging ChemE domain knowledge for sourcing and spec matching."
 status: "In Progress"
 role: "Founder"
-timeline: "2025 — Present"
+timeline: "2025 - Present"
 tags: ["B2B", "sustainability", "packaging", "brokerage"]
 ---
 
@@ -12,7 +12,7 @@ A B2B brokerage model designed to bridge the gap between FMCG/pharma companies s
 
 ## The Opportunity
 
-Large FMCG and pharmaceutical companies face increasing regulatory and consumer pressure to adopt sustainable packaging, but struggle to navigate the fragmented supplier ecosystem — especially in ASEAN markets where material certifications, minimum order quantities, and supply reliability vary wildly.
+Large FMCG and pharmaceutical companies face increasing regulatory and consumer pressure to adopt sustainable packaging, but struggle to navigate the fragmented supplier ecosystem - especially in ASEAN markets where material certifications, minimum order quantities, and supply reliability vary wildly.
 
 ## The Approach
 

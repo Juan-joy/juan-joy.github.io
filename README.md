@@ -1,4 +1,4 @@
-# Juan Joy — Personal Site v2
+# Juan Joy - Personal Site v2
 
 A bold, editorial-style personal website built with Hugo. Features a tabbed projects section, work experience timeline, blog, and about page.
 
@@ -54,19 +54,19 @@ hugo new projects/my-project.md
 ```
 
 ### Edit work experience
-Open `data/work.yaml` — each job is a YAML entry with title, company, location, period, bullets, and tags. Add, remove, or reorder entries.
+Open `data/work.yaml` - each job is a YAML entry with title, company, location, period, bullets, and tags. Add, remove, or reorder entries.
 
 ### Edit community engagement
-Open `data/community.yaml` — same format as work.
+Open `data/community.yaml` - same format as work.
 
 ### Edit the about page
 Open `content/about/index.md`.
 
 ### Edit the hero text or Light Patches tab
-Open `layouts/index.html` — the hero and Light Patches content are directly in this template.
+Open `layouts/index.html` - the hero and Light Patches content are directly in this template.
 
 ### Change colors or fonts
-Edit `static/css/style.css` — all values are in CSS variables at the top.
+Edit `static/css/style.css` - all values are in CSS variables at the top.
 
 ---
 

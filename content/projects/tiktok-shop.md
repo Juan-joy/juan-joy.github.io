@@ -4,7 +4,7 @@ date: 2025-07-01
 description: "Exploring reselling and white-label product opportunities through TikTok Shop and Carousell in Singapore."
 status: "Exploring"
 role: "Solo Operator"
-timeline: "2025 — Present"
+timeline: "2025 - Present"
 tags: ["e-commerce", "TikTok Shop", "reselling", "entrepreneurship"]
 ---
 
@@ -20,4 +20,4 @@ Two product categories are in active exploration: home cleaning products (high r
 
 ## What I'm Learning
 
-Product sourcing, margin analysis, content creation for commerce, and the operational mechanics of running a TikTok Shop in Singapore. The goal isn't to build a massive brand — it's to understand the full stack of modern e-commerce from the inside.
+Product sourcing, margin analysis, content creation for commerce, and the operational mechanics of running a TikTok Shop in Singapore. The goal isn't to build a massive brand - it's to understand the full stack of modern e-commerce from the inside.

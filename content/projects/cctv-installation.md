@@ -1,7 +1,7 @@
 ---
 title: "Commercial CCTV Installation"
 date: 2025-09-01
-description: "Project managing a 40-camera IP CCTV system for a commercial client — from procurement to deployment."
+description: "Project managing a 40-camera IP CCTV system for a commercial client - from procurement to deployment."
 status: "In Progress"
 role: "Project Manager & Procurement Lead"
 timeline: "2025"
