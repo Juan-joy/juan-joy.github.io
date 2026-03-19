@@ -1,5 +1,6 @@
----
-title: "Why I Think Every Engineer Should Work in Product"
+\---
+
+title: "Why I Think Every Engineer Should try a Product role"
 date: 2025-08-15
 description: "Reflections on switching between technical and commercial roles."
 ---
@@ -19,3 +20,4 @@ What I found was that my engineering training didn't hold me back in product. It
 If you're an engineer considering a stint in product, business development, or any commercial role - do it. You won't lose your technical edge. You'll gain context that makes your technical decisions sharper.
 
 The best engineers I've worked with understand *why* they're building something, not just *how*.
+
