@@ -10,7 +10,7 @@ tags: ["game development", "javascript", "canvas API", "creative coding", "HTML/
 
 A passion project born out of curiosity and a love for classic platformers. I built a fully playable 2D side-scroller from the ground up — no game engine, no framework. Just HTML, CSS, JavaScript, and the Canvas API.
 
-**[Play the game →](#)**
+**[Play the game →](https://juan-joy.github.io/game/)**
 
 ## What I Built
 
