@@ -10,7 +10,7 @@ tags: ["commodities", "trading", "data", "javascript", "statistical analysis", "
 
 A passion project sitting at the intersection of chemical engineering and markets. Built to sharpen my intuition for commodity price behaviour and demonstrate that I can turn a trading idea into a working tool.
 
-[**View the tracker →**](https://juan-joy.github.io/commodities-tracker/)
+[**View the tracker →**](https://juan-joy.github.io/commodity-anomaly-tracker/)
 
 > This live version runs on simulated data since Github only runs static pages. The full build with live price feeds from Yahoo Finance is available on request, feel free to reach out via LinkedIn.
 
