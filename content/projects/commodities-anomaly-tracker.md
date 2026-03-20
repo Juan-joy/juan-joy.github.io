@@ -1,5 +1,4 @@
 ---
-
 title: "Commodities Anomaly Tracker"
 date: 2026-02-11
 description: "A live data tool that pulls commodity prices and flags statistical anomalies and basis divergences across crude, LNG, and palm oil markets."
@@ -13,7 +12,7 @@ A passion project sitting at the intersection of chemical engineering and market
 
 [**View the tracker →**](https://juan-joy.github.io/commodities-tracker/)
 
-> The live version runs on simulated data. The full build with live price feeds is available on request, feel free to reach out via LinkedIn.
+> This live version runs on simulated data since Github only runs static pages. The full build with live price feeds from Yahoo Finance is available on request, feel free to reach out via LinkedIn.
 
 ## What It Does
 
