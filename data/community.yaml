@@ -7,14 +7,14 @@
     - "Managed several teams across project planning, execution, and evaluation phases"
     - "Established strategic partnerships with local NGOs, government bodies, and community leaders to align the project with local needs and priorities"
 
-- title: "Director of School Functions"
-  role: "Student Leader"
-  org: "Dunman Secondary School"
-  period: ""
-  description: "Led the organisation of key school-wide events and community initiatives at Dunman Secondary."
+- title: "TA: IE2141 Systems Thinking and Dynamics"
+  role: "Teaching Assistant"
+  org: "NUS College of Design and Engineering"
+  period: "Jan 2026 - Present"
+  description: "Handpicked by the course professor to support delivery of core systems engineering concepts."
   bullets:
-    - "Organised a school-wide blood donation drive in partnership with the Singapore Red Cross"
-    - "Led a food donation drive to support families in need within the local community"
+    - "Guide students in applying system dynamics modelling to analyse complex real-world problems using STELLA Architect"
+    - "Facilitate tutorials and consultations, provide academic mentorship and support course coordination"
 
 - title: "Residential Assistant"
   role: "Resident's Assistant"
@@ -25,11 +25,32 @@
     - "Plan and execute community-building events, social activities, and engagement initiatives to strengthen residential culture"
     - "Serve as a key point of contact for residents and housing administration"
 
-- title: "TA: IE2141 Systems Thinking and Dynamics"
-  role: "Teaching Assistant"
-  org: "NUS College of Design and Engineering"
-  period: "Jan 2026 - Present"
-  description: "Handpicked by the course professor to support delivery of core systems engineering concepts."
+- title: "NES UNICON 2024"
+  role: "Organising Committee Member"
+  org: "NUS Entrepreneurship Society"
+  period: "2024"
+  description: "Contributed to the organisation of Southeast Asia's largest student-led technology and entrepreneurship conference, bringing together founders, investors, and students from across the region."
   bullets:
-    - "Guide students in applying system dynamics modelling to analyse complex real-world problems using STELLA Architect"
-    - "Facilitate tutorials and consultations, provide academic mentorship and support course coordination"
+    - "Coordinated logistics and execution across a large-scale multi-day conference programme"
+    - "Collaborated with cross-functional teams to deliver keynotes, panels, and networking events"
+    - "Gained hands-on exposure to large-scale event infrastructure and stakeholder management"
+
+- title: "Sheares Hall Student Leadership"
+  role: "Vice-Head of Sports Management Board (Welfare) | Head of SWOC International Camp | Cultural Management Board Member"
+  org: "Sheares Hall, NUS"
+  period: "Aug 2022 - Aug 2024"
+  description: "Held multiple concurrent leadership roles across sports, welfare, and cultural programming within one of NUS's residential colleges."
+  bullets:
+    - "Led end-to-end planning and execution of SWOC International Camp, facilitating integration of international students into hall life"
+    - "Oversaw welfare operations as Vice-Head of the Sports Management Board, supporting student wellbeing alongside competitive programming"
+    - "Contributed to cultural events and community-building initiatives as a member of the Cultural Management Board"
+
+- title: "Director of School Functions"
+  role: "Student Leader"
+  org: "Dunman Secondary School"
+  period: ""
+  description: "Led the organisation of key school-wide events and community initiatives at Dunman Secondary."
+  bullets:
+    - "Organised a school-wide blood donation drive in partnership with the Singapore Red Cross"
+    - "Led a food donation drive to support families in need within the local community"
+
