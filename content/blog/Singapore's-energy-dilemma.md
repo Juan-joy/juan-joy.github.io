@@ -2,15 +2,12 @@
 title: "Should Singapore Still Invest in Energy and Chemicals If It Wants to Be Net Zero by 2050?"
 date: 2026-04-10
 ---
-
 Every time I tell someone I am a chemical engineer who wants to work in Singapore's energy and chemicals sector, I get some version of the same question. Isn't that industry dying? Doesn't Singapore want to be net zero by 2050? Aren't you choosing a career in something the country is actively trying to shrink?
 It's a fair question. I just don't think it has the answer most people assume. So here's my take on it.
-
 ## The Singapore contradiction (I squinted at it)
 
 Here are two facts that are both true.
 &#x20;
-
 Singapore has committed to net zero emissions by 2050, with an interim target of cutting emissions by 45-50% by 2035. It runs the strongest carbon tax in Southeast Asia. It has embedded decarbonisation targets into the mandates of agencies that would, in any other country, be purely industrial - EDB, JTC, MTI.
 Singapore is also home to Jurong Island, a 3,000-hectare industrial complex hosting over 100 energy and chemicals companies, producing about a quarter of national manufacturing output, and accounting for more than half of the country's total emissions. In October 2025, the government celebrated Jurong Island's 25th anniversary by announcing that it would build nine hydrogen ready power plants on the island by 2030, pilot ammonia bunkering, scale sustainable aviation fuel production, and attract over 30 new specialty chemicals projects.
 &#x20;
