@@ -4,6 +4,9 @@ title: "I am the Sun"
 date: 2025-05-20
 description: "My Short Story Submission"
 ---
+## A Short Story
+As an avid writer, i love to write, so here is my submission for short edition short story competition, where I made it to the top 10 Public favourite entries.
+
 
 The sun hung low, its molten rays bleeding into the ocean, transforming the sea into a tapestry of gold and fire. Daedalus, the master craftsman, stood on the rocky cliffside, his eyes heavy with both wisdom and weariness. The labyrinth below was distant now, both in space and memory, but its shadow still loomed in his heart. Beside him stood Icarus, his son, full of energy, eyes gleaming with the excitement of their escape. The wings that Daedalus had so carefully fashioned from wax and feathers lay at their feet, tools of both salvation but also temptation.
 
