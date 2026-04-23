@@ -1,5 +1,4 @@
 ---
-
 title: "Why I Think Every Engineer Should "Try" a Product role"
 date: 2025-08-15
 description: "Reflections on switching between technical and commercial roles."
