@@ -8,7 +8,7 @@ timeline: "2026"
 tags: ["commodities", "trading", "data", "javascript", "statistical analysis", "finance"]
 ---
 
-A passion project sitting at the intersection of chemical engineering and markets. Built to sharpen my intuition for commodity price behaviour and demonstrate that I can turn a trading idea into a working tool.
+A little passion project sitting at the intersection of chemical engineering and markets. I built this because I wanted to know whether I could turn a market instinct into something that actually runs.Commodity prices misbehave constantly, for example a spread blows out, a product crack snaps, LNG decouples from oil for a week and nobody agrees why. I wanted to learn more about this space and see if i could build tool that would notice those moments for me instead of making me squint at charts. So I did.
 
 [**View the tracker →**](https://juan-joy.github.io/commodity-anomaly-tracker/)
 
@@ -16,16 +16,19 @@ A passion project sitting at the intersection of chemical engineering and market
 
 ## What it does
 
-The tracker pulls commodity price data across crude oil, LNG, and palm oil and applies statistical methods to surface two things traders care about: anomalies and basis divergences.
-Anomalies are flagged when a price moves beyond a defined standard deviation threshold from its rolling mean — a simple but effective signal that something unusual is happening. Basis divergences track the spread between related instruments or delivery periods, highlighting when that relationship drifts outside its historical range.
-The result is a clean dashboard that gives a fast read on where prices are behaving unusually, without needing to stare at raw data.
+The tracker watches three markets, crude, LNG, and palm oil. And it flags two things: anomalies and basis divergences.
+An anomaly is just a price that's moved far enough from its rolling mean that it deserves a second look. I use a z-score threshold, which is a blunt tool, but a useful one, as it catches the moments that a trader would have noticed anyway, and it does it without my attention.
+Basis divergences are the more interesting signal. They track the spread between related instruments, Brent vs WTI, nearby vs deferred months, that kinda thing, and flags when that relationship drifts outside its historical range. Spreads tend to behave more predictably than outright prices, so when they break, something structural is usually happening: a chokepoint, a storage build, a refinery turnaround, a war.
+The dashboard sits on top of all of that. Take a glance at it, see which markets are behaving oddly, click in if something catches your eye.
 
 ## Technical Stack
 
-- JavaScript — Core application logic, statistical calculations, data pipeline
-- HTML/CSS — Dashboard layout, data visualisation, responsive design
-- Price Data — Simulated in the public build; live feeds via API in the full version
+- JavaScript - Core application logic, statistical calculations, data pipeline (Huge Shoutout to Zan Wai for helping me with this)
+- HTML/CSS - Dashboard layout, data visualisation, responsive design
+- Price Data - Simulated in the public build, live feeds via API in the full version
 
 
-## What I built this
-Most people applying to commodity trading roles understand markets conceptually. I wanted to build something that showed I could operationalise that understanding, and translate a trading insight into working code. Flagging a z-score breach on a Brent spread is one thing to talk about i guess, building a tool that does it automatically is another. It also forced me to think carefully about what actually constitutes a meaningful signal versus noise, which is a question that matters a lot more in live markets than in coursework.
+## Why I built this
+Firstly, I wanted to deepen my understanding in this space, and what better way to do that than via a little project? Most people applying for commodity trading roles understand markets conceptually. I wanted to build something that showed I could operationalise that understanding, to turn a trading idea into working code.
+Flagging a z-score breach on a Brent spread is one thing to talk about. Building a tool that does it automatically, every day, without me, is another. And it forced me to think carefully about what actually counts as a meaningful signal versus noise, a question that matters much more in live markets than it does in coursework.
+The tracker isn't a trading system. It's a noticing system. And noticing, I think, is where trading actually starts.
