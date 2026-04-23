@@ -1,13 +1,14 @@
-- title: "Technical Product & Procurement Lead"
+- title: "Commercial and Operations Analyst"
   company: "AAX Biotech AB"
   location: "Stockholm, Sweden · NUS Overseas Colleges @ KTH"
   period: "Aug 2024 - Aug 2025"
   bullets:
-    - "Spearheaded development of Seqitope®, a proprietary epitope mapping platform - pipeline setup, technical design, and validation of bioinformatics workflows"
-    - "Conducted end-to-end experimental research: dataset preparation, analysis pipeline design, workflow optimisation, and high-resolution epitope mapping interpretation"
-    - "Assisted development of Opti-mAb®, evaluating stabilisation strategies for scFvs and assessing commercial feasibility for therapeutic applications"
-    - "Authored SOPs for Seqitope® pipelines with change control documentation, enhancing reproducibility across the research team"
-  tags: ["biotech", "bioinformatics", "epitope mapping", "KTH / NOC"]
+    - "Designed and validated end-to-end bioinformatics analysis pipelines for Seqitope® epitope mapping platform, applying rigorous statistical reasoning and explicit assumption documentation across high-dimensional biological datasets."
+    - "Led procurement of critical research materials across international suppliers, evaluating lead times, cost structures, and delivery reliability to ensure uninterrupted operations for the bioinformatics platform."
+    - "Developed risk assessment frameworks for supply chain disruptions, mapping alternative sourcing strategies, assessing physical delivery risks, and implementing control frameworks to maintain operational continuity."
+    - "Built Excel/VBA automation for programme tracking, cost benchmarking, and performance forecasting across multiple workstreams, emphasising reproducibility and error handling in all deliverables."
+    - "Conducted quantitative commercial feasibility analysis for a new product line, modelling pricing dynamics, supply demand scenarios, and sensitivity ranges to produce a go/no-go recommendation that shaped the 2025 R&D roadmap."
+  tags: ["biotech", "operations", "bioinformatics", "Client-facing", ]
 
 - title: "Regional Product Manager"
   company: "Shopee Singapore"
