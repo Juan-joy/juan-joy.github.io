@@ -1,5 +1,5 @@
 ---
-title: "What a Closed Strait Teaches You About Building Trading Tools"
+title: "What a Closed Strait Teaches You"
 date: 2026-04-19
 ---
 
