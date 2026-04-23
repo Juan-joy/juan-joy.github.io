@@ -4,7 +4,7 @@ date: 2026-02-11
 description: "A live data tool that pulls commodity prices and flags statistical anomalies and basis divergences across crude, LNG, and palm oil markets."
 status: "Completed"
 role: "Solo Developer"
-timeline: "2026"
+timeline: "Feb 2026"
 tags: ["commodities", "trading", "data", "javascript", "statistical analysis", "finance"]
 ---
 
