@@ -165,35 +165,48 @@ kind of problem. It is, as all things are, an optimisation problem.
 ## References
 Dahl, W.J., Zhu, H. and Guan, L. (2023) 'Gut microbiota and dietary fibre interactions in human 
 health', Annual Review of Food Science and Technology, 14, pp. 145-168. 
+
 Devries, S., Dalen, J.E., Eisenberg, D.M., Maizes, V., Ornish, D., Prasad, A., Sierpina, V., Weil, A.T. 
 and Willett, W. (2019) 'A deficiency of nutrition education in medical training', American 
 Journal of Medicine, 127(9), pp. 804-806. 
+
 Flint, H.J., Scott, K.P., Duncan, S.H., Louis, P. and Forano, E. (2012) 'Microbial degradation of 
 complex carbohydrates in the gut', Gut Microbes, 3(4), pp. 289-306. 
+
 Jernberg, C., Lofmark, S., Edlund, C. and Jansson, J.K. (2010) 'Long-term impacts of antibiotic 
 exposure on the human intestinal microbiota', Microbiology, 156(11), pp. 3216-3223. 
+
 Koh, A., De Vadder, F., Kovatcheva-Datchary, P. and Backhed, F. (2016) 'From dietary fibre to host 
 physiology: short-chain fatty acids as key bacterial metabolites', Cell, 165(6), pp. 1332-1345. 
+
 Macfarlane, G.T. and Macfarlane, S. (2012) 'Bacteria, colonic fermentation, and gastrointestinal 
 health', Journal of AOAC International, 95(1), pp. 50-60. 
+
 Monteiro, C.A., Cannon, G., Levy, R.B., Moubarac, J.C., Louzada, M.L., Rauber, F., Khandpur, N., 
 Cediel, G., Neri, D., Martinez-Steele, E. and Baraldi, L.G. (2019) 'Ultra-processed foods: 
 what they are and how to identify them', Public Health Nutrition, 22(5), pp. 936-941. 
+
 Sender, R., Fuchs, S. and Milo, R. (2016) 'Revised estimates for the number of human and bacteria 
 cells in the body', Cell, 164(3). 
+
 Sonnenburg, E.D. and Sonnenburg, J.L. (2019) 'The ancestral and industrialized gut microbiota and 
 implications for human health', Nature Reviews Microbiology, 17(6), pp. 383-390. 
+
 Stuckler, D. and Nestle, M. (2012) 'Big food, food systems, and global health', PLOS Medicine, 9(6), 
 e1001242. 
+
 Valdes, A.M., Walter, J., Segal, E. and Spector, T.D. (2018) 'Role of the gut microbiota in nutrition 
 and health', BMJ, 361, k2179. 
+
 van Nood, E., Vrieze, A., Nieuwdorp, M., Fuentes, S., Zoetendal, E.G., de Vos, W.M., Visser, C.E., 
 Kuijper, E.J., Bartelsman, J.F., Tijssen, J.G. and Speelman, P. (2013) 'Duodenal infusion of 
 donor feces for recurrent Clostridium difficile', New England Journal of Medicine, 368(5), pp. 
 407-415. 
+
 Yano, J.M., Yu, K., Donaldson, G.P., Shastri, G.G., Ann, P., Ma, L., Nagler, C.R., Ismagilov, R.F., 
 Mazmanian, S.K. and Hsiao, E.Y. (2015) 'Indigenous bacteria from the gut microbiota 
 regulate host serotonin biosynthesis', Cell, 161(2), pp. 264-276. 
+
 Zeevi, D., Korem, T., Zmora, N., Israeli, D., Rothschild, D., Weinberger, A., Ben-Yosef, O., Mahdi, 
 J.A., Avnit-Sagi, T., Lotan-Pompan, M. and Suez, J. (2015) 'Personalized nutrition by 
 prediction of glycemic responses', Cell, 163(5), pp. 1079-1094.
